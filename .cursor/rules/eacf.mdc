@@ -1,13 +1,6 @@
 ---
-description: ABQ's EACF Knowledge Base agent instructions
+description: EACF Knowledge Base agent instructions — loaded for all sessions in this repository
 alwaysApply: true
 ---
 
-# ABQ's EACF — Agent Instructions for Cursor
-
-> All agent logic lives in one of two files. Read the right one.
-
-Check `0-meta/kb-config.yaml`:
-
-- **Has `# TODO` markers or missing?** → Read `AGENTS_SETUP.md` now and follow it. (Setup mode)
-- **Fully configured?** → Read `AGENTS_BOOT.md` now and follow it. (Operations mode)
+Before doing any work, read `AGENTS_BOOT.md` in this repository root. It contains your full operating instructions as an EACF-configured agent. Apply everything in it.
