@@ -1,6 +1,6 @@
 # EACF Company Knowledge Base
 
-> Part of the [Enterprise AI Context Framework](https://abq.institute/eacf) — by [ABQ Institute](https://abq.institute).
+> Built on [ABQ's EACF](https://abq.institute/eacf) — the Enterprise AI Context Framework by [ABQ Institute](https://abq.institute).
 
 ---
 
@@ -46,4 +46,4 @@ All files point to `AGENTS_BOOT.md` — one place to update, all tools stay in s
 
 ---
 
-*Built by [ABQ Institute](https://abq.institute) · [EACF Documentation](https://abq.institute/eacf)*
+*Built by [ABQ Institute](https://abq.institute) · [ABQ's EACF](https://abq.institute/eacf)*
