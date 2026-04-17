@@ -28,9 +28,11 @@ Each layer has a `_template/` subfolder. Copy it to add a department, product, o
 1. Click **"Use this template"** → create your organisation's KB repo
 2. Clone it locally
 3. Open any AI tool (Claude Code, Cursor, Gemini, Copilot) in the repo root
-4. The agent checks `kb-config.yaml` → reads `AGENTS_SETUP.md` (setup mode) or `AGENTS_BOOT.md` (operations mode)
-5. Fill in the template files with your actual content
-6. Your agents have context. Start working.
+4. Start with this prompt:
+   > "Read AGENTS_SETUP.md and guide me through setting up this EACF knowledge base."
+5. The agent checks `kb-config.yaml` → reads `AGENTS_SETUP.md` (setup mode) or `AGENTS_BOOT.md` (operations mode)
+6. Fill in the template files with your actual content
+7. Your agents have context. Start working.
 
 
 ## Two-file boot pattern
