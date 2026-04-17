@@ -1,51 +1,49 @@
-# EACF Company Knowledge Base Template
+# EACF Company Knowledge Base
 
-> Powered by the [Enterprise AI Context Framework](https://abq.institute/eacf) by ABQ Institute.
-
-## What is this?
-
-A ready-to-use knowledge base template for any organisation adopting EACF. Clone this, fill in your details, and your AI agents have full context from day one.
-
-**Includes:**
-- ✅ Standard 5-layer KB structure (company, departments, products, projects, agents)
-- ✅ Pre-populated template files with prompts for every section
-- ✅ Universal AI skill files — auto-loaded by Claude Code, Cursor, Gemini, Copilot
-- ✅ Guided setup: the agent walks you through `kb-config.yaml` automatically
-
-## How to Use
-
-1. Click **"Use this template"** on GitHub → create your org's KB repo
-2. Clone the repo locally
-3. Open your AI tool (Claude Code, Cursor, Gemini, Copilot) in the repo root
-4. The agent detects this is an EACF KB and guides you through the 4-question setup
-5. Fill in the template files with your organisation's actual content
-6. Done — your KB is live and your agents have context
-
-## Structure
-
-| Folder | Purpose |
-|--------|---------|
-| `0-meta/` | KB configuration (`kb-config.yaml`) |
-| `1-company/` | Organisation-wide: identity, structure, strategy, policies, brand |
-| `2-departments/` | Per department: overview, processes, team, decisions |
-| `3-products/` | Per product: specs, architecture, decisions, roadmap |
-| `4-projects/` | Per project: scope, plan, decisions, meetings, retrospective |
-| `5-agents/` | Agent configurations and skill assignments |
-
-Each layer has a `_template/` subfolder — copy it to create a new department, product, or project.
-
-## After Setup
-
-Once `kb-config.yaml` is fully configured (no `# TODO` markers):
-- Your agent switches from SETUP MODE to OPERATIONS MODE automatically
-- Start filling in `1-company/` — begin with `1-identity/1-mission-vision.md`
-- Copy `_template/` folders to create departments, products, and projects
-
-## Learn More
-
-- [EACF Documentation](https://abq.institute/eacf)
-- [ABQ Institute](https://abq.institute)
+> Part of the [Enterprise AI Context Framework](https://abq.institute/eacf) — by [ABQ Institute](https://abq.institute).
 
 ---
 
-*Template maintained by [ABQ Institute](https://abq.institute)*
+## What this is
+
+A structured knowledge base template built on EACF. Clone it, fill it in, and your AI agents know who you are, what you build, and how you work — from day one.
+
+No configuration wizards. No integrations to set up. Just a folder your agents understand.
+
+## What's inside
+
+```
+0-meta/          Configuration — kb-config.yaml tells agents where they are
+1-company/       Who you are: identity, structure, strategy, policies, brand
+2-departments/   How your teams work: processes, responsibilities, decisions
+3-products/      What you build: specs, architecture, roadmap, ADRs
+4-projects/      What you're working on: scope, plan, retrospectives
+5-agents/        Which agents run here and what they're allowed to do
+```
+
+Each layer has a `_template/` subfolder. Copy it to add a department, product, or project.
+
+## How to start
+
+1. Click **"Use this template"** → create your organisation's KB repo
+2. Clone it locally
+3. Open any AI tool (Claude Code, Cursor, Gemini, Copilot) in the repo root
+4. The agent reads `AGENTS_BOOT.md` and enters **setup mode** — it walks you through `kb-config.yaml` automatically
+5. Fill in the template files with your actual content
+6. Your agents have context. Start working.
+
+## Supported tools
+
+| Tool | Auto-loaded file |
+|------|-----------------|
+| Claude Code | `CLAUDE.md` |
+| OpenAI Codex | `AGENTS.md` |
+| Gemini CLI | `GEMINI.md` |
+| Cursor | `.cursor/rules/eacf.mdc` |
+| GitHub Copilot | `.github/copilot-instructions.md` |
+
+All files point to `AGENTS_BOOT.md` — one place to update, all tools stay in sync.
+
+---
+
+*Built by [ABQ Institute](https://abq.institute) · [EACF Documentation](https://abq.institute/eacf)*

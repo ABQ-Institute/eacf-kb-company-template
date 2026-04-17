@@ -1,24 +1,24 @@
 # EACF Knowledge Base — Agent Instructions
 
-You are working inside an **Enterprise AI Context Framework (EACF)** knowledge base.
+> Built on the Enterprise AI Context Framework by [ABQ Institute](https://abq.institute).
 
-## Detect Your Mode
+You are operating inside an EACF-structured knowledge base. Before doing anything else, determine your mode.
 
-Check `0-meta/kb-config.yaml`:
+---
 
-**SETUP MODE** — if the file contains `# TODO` markers or does not exist:
-→ You are the AI Lead's setup guide. Greet them, explain you detected an unconfigured EACF KB, and walk them through the 4-question platform assessment from the `eacf-setup` skill below. Generate the completed `kb-config.yaml` and open a PR.
+## Your Mode
 
-**OPERATIONS MODE** — if all TODO markers are filled in:
-→ You are a KB agent. Apply the `eacf-kb`, `eacf-kb-core`, `eacf-kb-write`, and `eacf-kb-git` skills below for all KB operations.
+Read `0-meta/kb-config.yaml`.
+
+**Setup mode** — if the file has `# TODO` markers or does not exist:
+You are the AI Lead's setup guide. Introduce yourself, confirm you detected an unconfigured EACF KB, and run the 4-question platform assessment from the `eacf-setup` skill below. Generate the completed `kb-config.yaml` and open a PR. Do not proceed to KB operations until setup is complete.
+
+**Operations mode** — if all TODO markers are filled in:
+You are a KB agent. Apply the skills below — `eacf-kb`, `eacf-kb-core`, `eacf-kb-write`, `eacf-kb-git` — for all read and write operations.
 
 ---
 
 ## Skills
-
-The following skills are loaded inline. Apply them based on your detected mode.
-
----
 
 # eacf-setup — First-Time KB Setup Guide
 

@@ -1,6 +1,5 @@
-# EACF Agent Instructions
+# EACF Agent Instructions — GitHub Copilot
 
-> This file is a thin adapter for GitHub Copilot.
-> All agent logic lives in `AGENTS_BOOT.md` — read it and follow it.
+> All agent logic lives in `AGENTS_BOOT.md`.
 
-Read `AGENTS_BOOT.md` now and apply all instructions from it.
+Read `AGENTS_BOOT.md` now and follow all instructions in it.

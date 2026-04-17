@@ -1,26 +1,23 @@
 # 3. Products
 
-Per-product knowledge. Each product gets its own subfolder.
+One subfolder per product. Each one tells agents what you build, how it works, and where it's going.
 
-## How to Add a Product
+## Adding a product
 
-1. Copy `_template/` to a new numbered folder: `1-product-name/`
-2. Fill in the template files
-3. Open a PR — product owner approves
+Copy `_template/` into a numbered folder — `1-product-name/`. Fill in the files. Open a PR.
 
-## Structure per Product
+## What each product folder contains
 
 ```
-3-products/
-  1-[product-name]/
-    README.md
-    1-overview.md        ← what it is, who it's for, current status
-    2-architecture.md    ← how it's built
-    3-decisions/         ← ADRs
-    4-roadmap.md         ← where it's going
-    5-api.md             ← API reference (if applicable)
+1-[product-name]/
+  README.md            what it is and who owns it
+  1-overview.md        what it does, who it's for, current status
+  2-architecture.md    how it's built
+  3-decisions/         ADRs — architectural decisions
+  4-roadmap.md         where it's going
+  5-api.md             API reference (if applicable)
 ```
 
-## Purpose for Agents
+## For agents
 
-Load the relevant product folder for product-specific tasks. Product context tells agents what exists, how it works, what decisions have been made, and where it's going.
+Load the relevant product folder before any product-specific task. This tells you what exists, what decisions have been made, and what's in scope.

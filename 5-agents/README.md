@@ -1,13 +1,19 @@
 # 5. Agents
 
-Agent configurations and skill assignments for this knowledge base.
+One file per agent. The audit trail for AI deployment in this organisation.
 
-## How to Add an Agent
+## Adding an agent
 
-1. Copy `_template/README.md` to `1-agent-name.md`
-2. Fill in the agent's KB_LOCATION, skills, and constraints
-3. Open a PR — company-layer owner approves
+Copy `_template/README.md` to `1-agent-name.md`. Fill in the configuration, skills, and constraints. Open a PR — company-layer owner approves.
 
-## Purpose
+## What each agent file contains
 
-This folder documents which AI agents have access to this KB, what skills they run, and what constraints apply. It is the audit trail for AI deployment in your organisation.
+- KB_LOCATION and platform
+- Skills loaded and their purpose
+- What the agent can read and write
+- Where it operates (Slack, terminal, IDE)
+- Any constraints beyond the defaults
+
+## Why this matters
+
+Every agent with access to this KB should be documented here. This tells humans what's running, what it can do, and who deployed it.
