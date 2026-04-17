@@ -1,7 +1,5 @@
-# EACF Agent Instructions
+# EACF Agent Instructions — OpenAI Codex / Gemini CLI
 
-> This file is a thin adapter for OpenAI Codex and generic agents.
-> Gemini CLI also reads this file automatically.
-> All agent logic lives in `AGENTS_BOOT.md` — read it and follow it.
+> All agent logic lives in `AGENTS_BOOT.md`.
 
-Read `AGENTS_BOOT.md` now and apply all instructions from it.
+Read `AGENTS_BOOT.md` now and follow all instructions in it.
