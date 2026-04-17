@@ -1,6 +1,5 @@
 # EACF Agent Instructions
 
-> This file is a thin adapter for Cursor.
-> All agent logic lives in `AGENTS_BOOT.md` — read it and follow it.
+> All agent logic lives in `AGENTS_BOOT.md`. It is imported below and loaded automatically at session start.
 
-Read `AGENTS_BOOT.md` now and apply all instructions from it.
+@AGENTS_BOOT.md
