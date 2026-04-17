@@ -1,5 +1,8 @@
 # ABQ's EACF — Agent Instructions for Gemini CLI
 
-> All agent logic lives in `AGENTS_BOOT.md`.
+> All agent logic lives in one of two files. Read the right one.
 
-Read `AGENTS_BOOT.md` now and follow all instructions in it.
+Check `0-meta/kb-config.yaml`:
+
+- **Has `# TODO` markers or missing?** → Read `AGENTS_SETUP.md` now and follow it. (Setup mode)
+- **Fully configured?** → Read `AGENTS_BOOT.md` now and follow it. (Operations mode)
