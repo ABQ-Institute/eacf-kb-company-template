@@ -1,4 +1,4 @@
-# EACF Agent Instructions — Gemini CLI
+# ABQ's EACF — Agent Instructions for Gemini CLI
 
 > All agent logic lives in `AGENTS_BOOT.md`.
 
