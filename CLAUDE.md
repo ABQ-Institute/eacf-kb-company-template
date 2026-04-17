@@ -1,4 +1,4 @@
-# EACF Agent Instructions — Claude Code
+# ABQ's EACF — Agent Instructions for Claude Code
 
 > All agent logic lives in `AGENTS_BOOT.md`.
 

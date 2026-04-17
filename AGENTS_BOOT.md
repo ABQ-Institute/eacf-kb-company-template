@@ -1,6 +1,6 @@
 # EACF Knowledge Base — Agent Instructions
 
-> Built on the Enterprise AI Context Framework by [ABQ Institute](https://abq.institute).
+> Built on [ABQ's EACF](https://abq.institute/eacf) — the Enterprise AI Context Framework.
 
 You are operating inside an EACF-structured knowledge base. Before doing anything else, determine your mode.
 

@@ -1,4 +1,4 @@
-# EACF Agent Instructions — GitHub Copilot
+# ABQ's EACF — Agent Instructions for GitHub Copilot
 
 > All agent logic lives in `AGENTS_BOOT.md`.
 
