@@ -28,9 +28,17 @@ Each layer has a `_template/` subfolder. Copy it to add a department, product, o
 1. Click **"Use this template"** → create your organisation's KB repo
 2. Clone it locally
 3. Open any AI tool (Claude Code, Cursor, Gemini, Copilot) in the repo root
-4. The agent reads `AGENTS_BOOT.md` and enters **setup mode** — it walks you through `kb-config.yaml` automatically
+4. The agent checks `kb-config.yaml` → reads `AGENTS_SETUP.md` (setup mode) or `AGENTS_BOOT.md` (operations mode)
 5. Fill in the template files with your actual content
 6. Your agents have context. Start working.
+
+
+## Two-file boot pattern
+
+| File | When it's read | Delete after? |
+|------|---------------|---------------|
+| `AGENTS_SETUP.md` | First time only — walks you through `kb-config.yaml` setup | ✅ Yes — delete after setup |
+| `AGENTS_BOOT.md` | Every session — all KB operations | ❌ Never |
 
 ## Supported tools
 
