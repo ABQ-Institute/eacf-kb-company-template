@@ -1,0 +1,11 @@
+---
+description: EACF Knowledge Base agent instructions
+alwaysApply: true
+---
+
+# EACF Agent Instructions
+
+> This file is a thin adapter for Cursor (new .mdc format).
+> All agent logic lives in `AGENTS_BOOT.md` — read it and follow it.
+
+Read `AGENTS_BOOT.md` now and apply all instructions from it.
