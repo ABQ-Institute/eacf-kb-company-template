@@ -1,9 +1,9 @@
 ---
-description: EACF Knowledge Base agent instructions
+description: ABQ's EACF Knowledge Base agent instructions
 alwaysApply: true
 ---
 
-# EACF Agent Instructions — Cursor
+# ABQ's EACF — Agent Instructions for Cursor
 
 > All agent logic lives in `AGENTS_BOOT.md`.
 
