@@ -116,7 +116,18 @@ Depending on when and how the AI Lead sets up, there are three routes:
 
 Four questions. Same logic regardless of route.
 
+### Pre-check: Git Detection
+
+**Before asking Question 1**, check the environment:
+
+Is there a `.git` folder in the root of this repository? Is `kb-config.yaml` already set to `platform: git`?
+
+- **Yes (Git repo detected):** Skip Question 1. Say: *"I can see this is a Git repository — platform is already set to `git`. Moving to Question 2."* Proceed directly to Question 2.
+- **No:** Ask Question 1 as normal.
+
 ### Question 1: Existing Documentation System
+
+*(Skip this if Git was detected in the pre-check above)*
 
 > "Does your organisation already use a documentation/wiki platform?"
 >
@@ -126,6 +137,7 @@ Four questions. Same logic regardless of route.
 > d) **SharePoint wiki / OneNote** → recommended: `mcp` with SharePoint
 > e) **Other system with API** → recommended: `mcp` (if MCP server available for that platform)
 > f) **Nothing structured / scattered docs** → go to Question 2
+> g) **Already using Git** → platform = `git` confirmed, go to Question 2
 
 If `mcp` is recommended, also ask:
 > "Is your installation Cloud-hosted or on-premise / Server / Data Center?"
