@@ -1,4 +1,4 @@
-# EACF Agent Instructions — OpenAI Codex / Gemini CLI
+# ABQ's EACF — Agent Instructions for OpenAI Codex / Gemini CLI
 
 > All agent logic lives in `AGENTS_BOOT.md`.
 
