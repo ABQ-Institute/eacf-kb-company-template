@@ -1,13 +1,11 @@
-# 1.2. Structure
+# Company Structure
 
-How the organisation is built — who does what, who decides what.
+This section covers the organisation at the company level: org chart, management layer, and key roles.
 
-## Contents
+**Scope:** Leadership and management layer only. Individual team members belong in their department's `3-team.md`.
 
-- `1-org-chart.md` — Team structure and reporting lines
-- `2-founders.md` — Founders: responsibilities, contact, decision domains
-- `3-advisors.md` — Board, advisors, mentors
-
-## Purpose for Agents
-
-This folder answers: *"Who should I involve in this decision?"* and *"Who owns this area?"* Load when routing approvals, drafting communications, or resolving ownership questions.
+| File | Content |
+|------|---------|
+| `1-org-chart.md` | Reporting structure, divisions, top-level hierarchy |
+| `2-leadership.md` | Leadership team: names, roles, decision authority |
+| `3-key-roles.md` | Key functional roles that cross departments (e.g. Legal, Finance, Compliance) |
