@@ -1,3 +1,7 @@
+---
+data_status: verified  # verified | plausible | demo-only (see 0-meta/README.md for definitions)
+---
+
 # [Document Title]
 
 **Layer:** `1-company` / `2-departments` / `3-products` / `4-projects` / `5-agents`
@@ -6,6 +10,7 @@
 **Last reviewed:** <!-- YYYY-MM-DD -->
 **Review cadence:** `Annual` / `Quarterly` / `At-change` / `Monthly`
 **Status:** `Draft` / `Active` / `Archived`
+**Data status:** `verified` / `plausible` / `demo-only`
 
 ---
 
