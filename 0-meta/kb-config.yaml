@@ -9,6 +9,10 @@ kb:
   main_ref: main
   language: en  # Change if needed: ro, de, fr, es, etc.
   repository: # TODO: https://github.com/your-org/your-kb-repo
+  org_type: # TODO: startup | scaleup | enterprise
+  # startup    → founders.md + advisors.md in 1-company/2-structure/
+  # scaleup    → founders.md + advisors.md + leadership.md
+  # enterprise → leadership.md + key-roles.md only
 
 owners:
   1-company: # TODO: GitHub username — approves company-layer changes

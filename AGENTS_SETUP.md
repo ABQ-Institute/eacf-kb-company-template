@@ -116,6 +116,28 @@ Depending on when and how the AI Lead sets up, there are three routes:
 
 Four questions. Same logic regardless of route.
 
+### Question 0: Organisation Type
+
+**Ask this first, before any platform questions.**
+
+> "What type of organisation are you setting up this KB for?"
+>
+> a) **Startup** — founding team, likely has advisors, headcount under ~50
+> b) **Scaleup** — founders still active + growing management layer, 50–500 people
+> c) **Enterprise** — established management hierarchy, founders may not be in day-to-day, 500+ people
+
+**What this controls** — the `1-company/2-structure/` files scaffolded:
+
+| org_type | Files created |
+|----------|---------------|
+| `startup` | `1-org-chart.md`, `3-founders.md`, `4-advisors.md` |
+| `scaleup` | `1-org-chart.md`, `2-leadership.md`, `3-founders.md`, `4-advisors.md` |
+| `enterprise` | `1-org-chart.md`, `2-leadership.md`, `5-key-roles.md` |
+
+Set `org_type` in `kb-config.yaml` accordingly. Delete structure files that don't apply.
+
+---
+
 ### Pre-check: Git Detection
 
 **Before asking Question 1**, check the environment:
