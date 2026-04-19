@@ -1,13 +1,10 @@
-# 1.4. Policies
+# Policies
 
-How we operate. Rules that apply across the entire organisation.
+Company-wide rules and guardrails that apply across all departments.
 
-## Contents
-
-- `1-communication.md` — Internal and external communication standards
-- `2-security.md` — Security baseline: access, data, credentials
-- `3-finance.md` — How financial decisions are made and approved
-
-## Purpose for Agents
-
-Load before taking any action that involves external communication, handling credentials, or committing resources. Policies are non-negotiable — agents must flag conflicts, not work around them.
+| File | Content |
+|------|---------|
+| `1-communication.md` | Internal and external communication standards |
+| `2-security.md` | Security rules, access management, incident response |
+| `3-ai-policy.md` | Approved AI tools, data classification, agent guardrails |
+| `4-finance.md` | Expense, procurement, budget approval rules |
