@@ -1,13 +1,17 @@
-# 1.2. Structure
+# Company Structure
 
-How the organisation is built — who does what, who decides what.
+Org chart and the people layer at company level. **Not an employee directory** — individual team members belong in their department's `3-team.md`.
 
-## Contents
+Which files to use depends on your `org_type` in `0-meta/kb-config.yaml`:
 
-- `1-org-chart.md` — Team structure and reporting lines
-- `2-founders.md` — Founders: responsibilities, contact, decision domains
-- `3-advisors.md` — Board, advisors, mentors
+| File | `startup` | `scaleup` | `enterprise` |
+|------|:---------:|:---------:|:------------:|
+| `1-org-chart.md` | ✅ | ✅ | ✅ |
+| `2-leadership.md` | — | ✅ | ✅ |
+| `3-founders.md` | ✅ | ✅ | — |
+| `4-advisors.md` | ✅ | ✅ | — |
+| `5-key-roles.md` | — | optional | ✅ |
 
-## Purpose for Agents
+**Delete files that don't apply to your org type.**
 
-This folder answers: *"Who should I involve in this decision?"* and *"Who owns this area?"* Load when routing approvals, drafting communications, or resolving ownership questions.
+`AGENTS_SETUP.md` will scaffold the right subset automatically based on `org_type`.
